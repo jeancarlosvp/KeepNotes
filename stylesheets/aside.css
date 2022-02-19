@@ -1,0 +1,25 @@
+.aside {
+  border-top: 1px solid var(--grey-light);
+  padding: 10px 0;
+}
+
+.aside ul {
+  list-style-type: none;
+}
+
+.aside li {
+  padding: 14px 20px;
+  border-radius: 0px 25px 25px 0px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.aside li.selected {
+  background: var(--grey);
+}
+
+/* .aside a {
+  color: var(--white);
+  text-decoration: none;
+  display: block;
+} */
