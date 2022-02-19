@@ -13,7 +13,6 @@ const Aside = (function(){
 
   const listenNavigation = () => {
     const navbarMenu = document.querySelector(".aside ul");
-    console.log(navbarMenu);
     navbarMenu.addEventListener("click", (e) => {
       const li = e.target;
       const sibling = li.nextElementSibling || li.previousElementSibling;
@@ -24,13 +23,9 @@ const Aside = (function(){
       const valueView = e.target.dataset.value;
       switch (valueView){
         case "notes":
-          
-          // agreagar a notes selected
-          // quitar al trash
 
         case "trash":
-          // agreagar a trash selected
-          // quitar al 
+
         }
     });
   };
