@@ -23,9 +23,11 @@ const Aside = (function(){
       const valueView = e.target.dataset.value;
       switch (valueView){
         case "notes":
-
+          Main.load(NotesView);
+          break;
         case "trash":
-
+          Main.load(TrashesView);
+          break;
         }
     });
   };

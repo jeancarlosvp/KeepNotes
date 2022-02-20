@@ -1,0 +1,6 @@
+.section {
+  border-top: 1px solid var(--grey-light);
+  border-left: 1px solid var(--grey-light);
+  display: flex;
+  flex-direction: column;
+}

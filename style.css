@@ -1,4 +1,8 @@
 @import url("./stylesheets/header.css");
 @import url("./stylesheets/aside.css");
+@import url("./stylesheets/section.css");
+@import url("./stylesheets/form.css");
+@import url("./stylesheets/tooltip.css");
+@import url("./stylesheets/notes.css");
 @import url("./stylesheets/global/colors.css");
 @import url("./stylesheets/global/reset.css");

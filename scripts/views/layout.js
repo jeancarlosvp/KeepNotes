@@ -2,11 +2,8 @@ const Layout = (function () {
     const template = `
     ${Header}
     ${Aside}
-    <main class="section">
-      <div class="container js-main">
-      </div>
-    </main>`;
-
+    <section class="section js-main">
+    </section>`;
     return {
         toString() {
             return template;
